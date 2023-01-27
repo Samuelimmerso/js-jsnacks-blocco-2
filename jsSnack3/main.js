@@ -10,7 +10,9 @@ for(let i=0; i < arraylen; i++){
 
 //sum calculation and number prints
 for(let i=0; i < array.length; i++){
-    sum+=array[i];
+    if((i+1) % 2 != 0){
+        sum+=array[i];
+    }
     console.log(i+1 + " Numero: " + array[i]);
 }
 
