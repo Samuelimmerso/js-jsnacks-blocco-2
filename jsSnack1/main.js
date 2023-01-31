@@ -3,6 +3,7 @@ let inputN = document.getElementById("number");
 let check = document.getElementById("check");
 let print = document.getElementById("print");
 
+// click check
 check.addEventListener("click",
     function () {
         if (inputN.value % 2 == 0) {
@@ -11,5 +12,4 @@ check.addEventListener("click",
             print.innerHTML = ++inputN.value;
         }
     }
-
 );

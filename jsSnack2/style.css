@@ -1,0 +1,33 @@
+/* Reset Css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+body {
+    display: flex;
+    gap: 20vh;
+    justify-content: center;
+}
+
+.input {
+    margin-top: 2rem;
+}
+
+/* even or odd */
+
+#even {
+    margin: auto;
+    color: white;
+    padding: 20px;
+    background-color: green;
+}
+
+#odd {
+    margin: auto;
+    color: white;
+    padding: 20px;
+    background-color: red;
+}
